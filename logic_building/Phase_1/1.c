@@ -5,8 +5,17 @@
 int main(){
         double x;
         printf("enter a number: ");
-        scanf("%d", &x);
-        
+        scanf("%lf", &x);
+
+        if(x<0){
+            printf("the number is negative");
+        }
+        else if(x==0){
+            printf("the  number is zero");
+        }
+        else{
+            printf("the number is positive");
+        }
 
     return  0;
 }
