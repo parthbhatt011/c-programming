@@ -1,0 +1,1 @@
+//Check if a number is a multiple of 7 or ends with 7
