@@ -84,6 +84,7 @@ Tricky and interview-style questions
 
 Markdown notes to summarize concepts, revise quickly, and maintain a learning log.
 
-also there will be some logic building exercises 
+also there will be some logic building exercises with levels 
+questions practiced to build logic in c programming language 
 
 any contribution are invited 
