@@ -84,4 +84,6 @@ Tricky and interview-style questions
 
 Markdown notes to summarize concepts, revise quickly, and maintain a learning log.
 
+also there will be some logic building exercises 
+
 any contribution are invited 
