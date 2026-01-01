@@ -1,0 +1,26 @@
+//Check if one of two given numbers is a multiple of the other. 
+
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    // Zero check to avoid division by zero
+    if (a == 0 || b == 0) {
+        printf("Multiples involving zero are undefined for division.\n");
+    }
+    else if (a % b == 0) {
+        printf("%d is a multiple of %d\n", a, b);
+    }
+    else if (b % a == 0) {
+        printf("%d is a multiple of %d\n", b, a);
+    }
+    else {
+        printf("Neither number is a multiple of the other.\n");
+    }
+
+    return 0;
+}
